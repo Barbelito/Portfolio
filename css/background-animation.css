@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+#stars-container {
+  position: fixed; /* stays pinned to viewport */
+  top: 0;
+  left: 0;
+  width: 100vw; /* full viewport width */
+  height: 100vh; /* full viewport height */
+  pointer-events: none;
+  overflow: visible; /* let stars fly outside */
+  z-index: -1;
+}
+
+/* Shooting star style */
+.shooting-star {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(white, transparent);
+  opacity: 0;
+  transform: rotate(-45deg);
+  animation: flyby-left 1s linear forwards;
+  box-shadow: 0 0 10px white, 0 0 20px #87cefa, 0 0 30px #87cefa;
+}
+
+:root {
+  --star-end-y: 60vh;
+  --star-degree: -100deg;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --star-end-y: 40vh;
+    --star-degree: -120deg;
+  }
+}
+
+@keyframes flyby-left {
+  0% {
+    transform: translateX(0) translateY(0) rotate(var(--star-degree));
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-120vw) translateY(var(--star-end-y))
+      rotate(var(--star-degree));
+    opacity: 0;
+  }
+}

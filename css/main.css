@@ -1,0 +1,107 @@
+section.hero {
+  padding-top: 10vh;
+  min-height: 80vh;
+}
+
+h1.myName {
+  font-weight: bold;
+  color: rgb(172, 0, 251);
+  font-size: 3rem;
+}
+
+h2.title {
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  padding-right: 10rem;
+}
+
+.hero-image img {
+  max-width: 15rem;
+  height: auto;
+  object-fit: cover;
+  border: 4px solid #932df9;
+  border-radius: 10%;
+  transition: box-shadow 0.3s ease;
+}
+
+.hero-image img:hover,
+.hero-image img:focus {
+  box-shadow: 0 0 5px #c084fc, 0 0 10px #ffffff, 0 0 15px #e18fff;
+}
+
+.skills {
+  padding: 1rem;
+  color: white;
+  justify-content: center;
+}
+
+.skills h3 {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.skills-grid > * {
+  white-space: nowrap;
+}
+
+.skills-grid > div {
+  background-color: #111;
+  border: 2px solid #41f92d;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-grid > div:hover {
+  box-shadow: 0 0 5px #2df945, 0 0 10px #ffffff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    order: 2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-image {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+  }
+
+  .hero-image img {
+    max-width: 15rem;
+  }
+
+  .skills-grid {
+    justify-content: center;
+  }
+}

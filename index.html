@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio SPA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/background-animation.css" />
+  </head>
+  <body>
+    <div id="stars-container"></div>
+    <header>
+      <div>
+        <a
+          href="#home"
+          class="logo-link"
+          aria-label="Sharbel Kas Elias Portfolio Logo"
+        >
+          <span class="logo"> &lt;S-KE&gt;</span>
+        </a>
+      </div>
+      <button
+        class="menu-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        ☰ <span class="sr-only"></span>
+      </button>
+      <nav id="primary-navigation">
+        <ul>
+          <li><a href="#home" class="home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <h2 class="title">.NET developer</h2>
+          <h1 class="myName">Sharbel Kas Elias</h1>
+          <p>
+            Hi there 👋, I’m Sharbel — a passionate
+            <strong>.NET programmer</strong> with a love for
+            <strong>finding and solving problems</strong>. I thrive in new
+            teams, enjoy learning fresh approaches, and believe every project is
+            an opportunity to grow. Take a look around and explore my work — I’m
+            excited to share my journey with you!
+          </p>
+          <section class="skills">
+            <div class="skills-grid">
+              <div>
+                <h3>C#</h3>
+              </div>
+              <div>
+                <h3>.NET</h3>
+              </div>
+              <div>
+                <h3>HTML</h3>
+              </div>
+              <div>
+                <h3>CSS</h3>
+              </div>
+              <div>
+                <h3>JS</h3>
+              </div>
+              <div>
+                <h3>GitHub</h3>
+              </div>
+              <div>
+                <h3>SQL</h3>
+              </div>
+              <div>
+                <h3>Unity</h3>
+              </div>
+              <div>
+                <h3>Game Design</h3>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="hero-image">
+          <img
+            src="/images/PortfolioPicture.jpg"
+            alt="Sharbel Kas Elias portrait"
+          />
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Project 1</h3>
+            <img
+              src="/images/Grupp11bild.jpg"
+              alt="Sharbel Kas Elias portrait"
+            />
+            <div class="project-skills-grid">
+              <div>
+                <h4>C#</h4>
+              </div>
+              <div>
+                <h4>.NET</h4>
+              </div>
+              <div>
+                <h4>HTML</h4>
+              </div>
+              <div>
+                <h4>CSS</h4>
+              </div>
+              <div>
+                <h4>JS</h4>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+              </div>
+              <div>
+                <h4>SQL</h4>
+              </div>
+              <div>
+                <h4>Unity</h4>
+              </div>
+              <div>
+                <h4>Game Design</h4>
+              </div>
+            </div>
+            <h5>Dec 2022</h5>
+            <p>
+              Short description of project. Short description of project. Short
+              description of project. Short description of project. Short
+              description of project.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Short description of project.</p>
+          </div>
+          <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Short description of project.</p>
+          </div>
+          <div class="project-card">
+            <h3>Project 3</h3>
+            <p>Short description of project.</p>
+          </div>
+        </div>
+      </section>
+
+      <section style="height: 2000px; background: #22222200">
+        Lots of content here...
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <div id="app"></div>
+
+    <script src="js/app.js"></script>
+    <script src="js/stars.js"></script>
+  </body>
+</html>

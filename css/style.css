@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 55px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.6;
+  background-color: rgb(0, 0, 0);
+  background-image: repeating-linear-gradient(
+      to bottom,
+      #482d6358,
+      #482d6358 2px,
+      transparent 10px,
+      transparent 20px
+    ),
+    repeating-linear-gradient(
+      to right,
+      #482d6358,
+      #482d6358 2px,
+      transparent 2px,
+      transparent 20px
+    );
+  color: #e6e7eb;
+}
+@media (max-width: 1080px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}

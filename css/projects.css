@@ -1,0 +1,68 @@
+.projects {
+  margin-top: 7.5rem;
+  padding: 4rem 2rem;
+  background-color: #0000007c; /* black background */
+  color: white;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #932df9; /* purple accent */
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem; /* spacing between cards */
+}
+
+.project-card {
+  background-color: #111; /* dark card background */
+  border: 2px solid #932df9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px #932df9, 0 0 20px #e18fff;
+}
+
+.project-skills-grid h4 {
+  color: rgb(0, 255, 60);
+  justify-content: center;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.project-skills-grid {
+  display: flex;
+  justify-content: left;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+.project-skills-grid > * {
+  white-space: nowrap;
+}
+
+.project-skills-grid > div {
+  background-color: #1aff001c;
+  border-radius: 10px;
+  padding: 0.25rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card > h5 {
+  color: #ffffffa1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

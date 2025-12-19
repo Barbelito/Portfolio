@@ -62,6 +62,32 @@ nav ul li a:hover {
   text-shadow: 0 0 10px #c084fc, 0 0 20px #c084fc, 0 0 40px #c084fc;
 }
 
+nav ul li a svg {
+  transform: translateY(0.1rem);
+  display: block;
+  margin: 0 auto;
+}
+
+.linkedin-nav-icon {
+  transform: translateY(2px);
+  display: block;
+  transition: filter 0.3s ease, color 0.3s ease;
+}
+.github-nav-icon {
+  transform: translateY(2px);
+  display: block;
+  transition: filter 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover .linkedin-nav-icon {
+  filter: drop-shadow(0 0 2px #1087ff) drop-shadow(0 0 8px #0a66c2);
+  color: #3499ff;
+}
+nav ul li a:hover .github-nav-icon {
+  filter: drop-shadow(0 0 2px #7410ff) drop-shadow(0 0 8px #880ac2);
+  color: #da34ff;
+}
+
 .menu-toggle {
   display: none;
   background: none;

@@ -1,19 +1,38 @@
+let starInterval;
+
 function spawnStar() {
   const star = document.createElement("div");
   star.classList.add("shooting-star");
-  const spawnY =
-    Math.random() * (window.innerHeight * 1.5) - window.innerHeight * 0.25;
-  star.style.top = spawnY + "px";
-
   star.style.right = "-50px";
+  star.style.top = Math.random() * window.innerHeight + "px";
 
   document.getElementById("stars-container").appendChild(star);
 
   setTimeout(() => {
     star.remove();
-  }, 20000);
+  }, 2000);
 }
 
-setInterval(() => {
-  spawnStar();
-}, 2000);
+function startSpawning() {
+  if (!starInterval) {
+    starInterval = setInterval(() => {
+      if (!document.hidden) {
+        spawnStar();
+      }
+    }, 2000);
+  }
+}
+
+function stopSpawning() {
+  clearInterval(starInterval);
+  starInterval = null;
+}
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    stopSpawning();
+  } else {
+    startSpawning();
+  }
+});
+
+startSpawning();

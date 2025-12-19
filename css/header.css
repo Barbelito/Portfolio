@@ -78,6 +78,11 @@ nav ul li a svg {
   display: block;
   transition: filter 0.3s ease, color 0.3s ease;
 }
+.resume-nav-icon {
+  transform: translateY(2px);
+  display: inline-block;
+  transition: filter 0.3s ease, color 0.3s ease;
+}
 
 nav ul li a:hover .linkedin-nav-icon {
   filter: drop-shadow(0 0 2px #1087ff) drop-shadow(0 0 8px #0a66c2);
@@ -86,6 +91,19 @@ nav ul li a:hover .linkedin-nav-icon {
 nav ul li a:hover .github-nav-icon {
   filter: drop-shadow(0 0 2px #7410ff) drop-shadow(0 0 8px #880ac2);
   color: #da34ff;
+}
+nav ul li a:hover .resume-nav-icon {
+  filter: drop-shadow(0 0 2px #10ff4c) drop-shadow(0 0 8px #0ac213);
+  color: #34ff7e;
+}
+
+.cv-button {
+  background-color: #00c16a;
+}
+
+.cv-button:hover {
+  text-shadow: 0 0 10px #84fc8e, 0 0 20px #84fca6, 0 0 40px #84fca2;
+  background-color: #006c3c64;
 }
 
 .menu-toggle {

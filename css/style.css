@@ -7,9 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin-left: 5rem;
-  margin-right: 5rem;
-  padding-top: 55px;
+  padding-top: 3rem;
   font-family: "Lexend Deca", sans-serif;
   line-height: 1.6;
   background-color: rgb(0, 0, 0);

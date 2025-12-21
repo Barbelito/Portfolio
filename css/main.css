@@ -1,5 +1,6 @@
 section.hero {
-  padding-top: 10vh;
+  margin-top: 1rem;
+  padding-top: 5rem;
   min-height: 80vh;
 }
 
@@ -21,7 +22,9 @@ h2.title {
 }
 
 .hero-text {
+  padding: 1rem;
   flex: 1;
+  background-color: #0000007c;
 }
 
 .hero-image {
@@ -42,7 +45,7 @@ h2.title {
 
 .hero-image img:hover,
 .hero-image img:focus {
-  box-shadow: 0 0 5px #c084fc, 0 0 10px #ffffff, 0 0 15px #e18fff;
+  box-shadow: 0 0 5px #a851ff, 0 0 10px #ffffff, 0 0 15px #cc55f8;
 }
 
 .skills {
@@ -86,6 +89,7 @@ h2.title {
 
   .hero-text {
     order: 2;
+    padding: 0rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }

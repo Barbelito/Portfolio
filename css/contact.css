@@ -1,0 +1,121 @@
+input,
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  color: #fff;
+  resize: vertical;
+}
+
+.contact-section {
+  padding: 5rem 2rem;
+  text-align: center;
+  max-width: 85rem;
+  margin: 0 auto;
+  background-color: #0000007c;
+  border: 3px solid transparent;
+  border-image: linear-gradient(#932df9, #00ff8c) 1;
+  box-shadow: inset 0 0 10px #39b97f, inset 0 0 18px #7122c1;
+  padding: 2rem;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: rgb(172, 0, 251);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: #eaeaea;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.07);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #00ff8c;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.contact-submit {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: #00c44e;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-submit:hover {
+  background: #006519;
+  filter: drop-shadow(0 0 2px #10ff4c) drop-shadow(0 0 8px #0ac213);
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  white-space: nowrap;
+  font-size: clamp(0.9rem, 1.5vw, 5rem);
+}
+
+.contact-bubble {
+  width: clamp(15rem, 30vw, 23rem);
+}
+
+.social-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    padding-right: 0rem;
+    gap: 2rem;
+  }
+}

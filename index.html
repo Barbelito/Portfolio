@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>My Portfolio SPA</title>
+    <title>My Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
       rel="stylesheet"
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/background-animation.css" />
     <link rel="stylesheet" href="css/testimonials.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <div id="stars-container"></div>
@@ -564,7 +565,10 @@
               His problem‑solving mindset made our project smoother and more
               efficient.”
             </p>
-            <h3 class="testimonial-author">— Team Member, Nackademin</h3>
+            <div class="author-wrapper">
+              <h3 class="testimonial-author">Jeff Bezos</h3>
+              <h3 class="testimonial-author-job">— Team Member, Nackademin</h3>
+            </div>
           </div>
 
           <div class="testimonial-card">
@@ -573,7 +577,10 @@
               quickly, and consistently delivers polished, thoughtful
               solutions.”
             </p>
-            <h3 class="testimonial-author">— Classmate & Collaborator</h3>
+            <div class="author-wrapper">
+              <h3 class="testimonial-author">Mark Zuckerberg</h3>
+              <h3 class="testimonial-author-job">— Classmate & Collaborator</h3>
+            </div>
           </div>
 
           <div class="testimonial-card">
@@ -581,13 +588,87 @@
               “His attention to detail and passion for .NET development really
               stand out. Any team would be lucky to have him.”
             </p>
-            <h3 class="testimonial-author">— Instructor, Media Technology</h3>
+            <div class="author-wrapper">
+              <h3 class="testimonial-author">Steve Jobs</h3>
+              <h3 class="testimonial-author-job">
+                — Instructor, Media Technology
+              </h3>
+            </div>
           </div>
         </div>
       </section>
+      <section id="contact" class="contact-section">
+        <h2 class="contact-title">Get in Touch</h2>
+        <div class="contact-wrapper">
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/2e4eef8c2c7b393c51db28d747a3d7bd"
+            method="POST"
+          >
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="Firstname"
+                required
+                minlength="2"
+                pattern="[A-Za-zÅÄÖåäö\- ]+"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="Lastname"
+                required
+                minlength="2"
+                pattern="[A-Za-zÅÄÖåäö\- ]+"
+                placeholder="Enter your last name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Enter your message here"
+              ></textarea>
+            </div>
 
-      <section style="height: 2000px; background: #22222200">
-        Lots of content here...
+            <button type="submit" class="contact-submit">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <img
+              src="images/ContactInfoBubble.png"
+              alt="Contact Info Bubble"
+              class="contact-bubble"
+            />
+            <p><strong>Email:</strong> sharbelkaselias@gmail.com</p>
+            <p><strong>Phone:</strong> +46 73 873 90 96</p>
+            <p><strong>Country:</strong> Sweden</p>
+            <div class="social-icons">
+              <!-- SVGs here  -->
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 

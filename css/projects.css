@@ -1,21 +1,25 @@
 .projects {
-  margin-top: 7.5rem;
   padding: 4rem 2rem;
   background-color: #0000007c;
+  box-shadow: inset 0 0 15px #932df9;
+  border: 3px solid #932df9;
   color: white;
+  max-width: 85rem;
+  margin: 5rem auto;
 }
 
 .projects h2 {
-  font-size: 2.5rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: #a435ff;
+  color: rgb(172, 0, 251);
+  font-size: clamp(2rem, 2vw + 1rem, 3rem);
+  white-space: nowrap;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.25rem;
 }
 
 .project-card {
@@ -73,7 +77,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 5px 10px;
+  padding: 3px 7px;
   background-color: #ff0000;
   color: white;
   text-decoration: none;
@@ -96,7 +100,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 5px 10px;
+  padding: 3px 7px;
   background-color: #9701c1;
   color: white;
   text-decoration: none;

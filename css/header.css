@@ -15,7 +15,6 @@ header {
 }
 
 .logo-link {
-  margin-right: auto;
   text-decoration: none;
   color: white;
   letter-spacing: 0.125rem;
@@ -34,10 +33,6 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-nav ul li {
-  display: inline-block;
 }
 
 nav ul li a {
@@ -106,7 +101,7 @@ nav ul li a:hover .resume-nav-icon {
 
 .cv-button {
   background-color: #00c16a;
-  padding: 0.3rem;
+  padding: 0.4rem;
 }
 
 .cv-button:hover {
@@ -136,7 +131,6 @@ nav ul li a:hover .resume-nav-icon {
     background: rgba(21, 24, 33, 0.95);
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-out;
     opacity: 0;
     transform: translateY(-20px);
     transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;

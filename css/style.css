@@ -27,12 +27,6 @@ body {
     );
   color: #e6e7eb;
 }
-@media (max-width: 1080px) {
-  body {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
 @media (max-width: 768px) {
   body {
     margin-left: 0rem;

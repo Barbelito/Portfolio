@@ -1,5 +1,6 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector("#primary-navigation");
+const navLinks = document.querySelectorAll("#primary-navigation a");
 
 menuToggle.addEventListener("click", () => {
   const isOpen = nav.classList.toggle("open");
@@ -13,4 +14,13 @@ document.addEventListener("click", (event) => {
     nav.classList.remove("open");
     menuToggle.setAttribute("aria-expanded", false);
   }
+});
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (nav.classList.contains("open")) {
+      nav.classList.remove("open");
+      menuToggle.setAttribute("aria-expanded", false);
+    }
+  });
 });

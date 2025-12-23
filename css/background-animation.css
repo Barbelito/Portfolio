@@ -4,17 +4,16 @@ body {
 }
 
 #stars-container {
-  position: fixed; /* stays pinned to viewport */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; /* full viewport width */
-  height: 100vh; /* full viewport height */
+  width: 100vw;
+  height: 100vh;
   pointer-events: none;
-  overflow: visible; /* let stars fly outside */
+  overflow: visible;
   z-index: -1;
 }
 
-/* Shooting star style */
 .shooting-star {
   position: absolute;
   width: 2px;

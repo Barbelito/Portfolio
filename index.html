@@ -665,7 +665,7 @@
             <p><strong>Phone:</strong> +46 73 873 90 96</p>
             <p><strong>Country:</strong> Sweden</p>
             <div class="social-icons">
-              <!-- SVGs here  -->
+              <!-- TODO: SVGs here  -->
             </div>
           </div>
         </div>
@@ -674,7 +674,9 @@
 
     <footer class="footer">
       <div class="footer-content">
-        <p class="footer-logo">7.2°C • 11:36 PM</p>
+        <div id="weatherInfo" class="footer-info"></div>
+
+        <img id="weatherIcon" src="" />
         <div class="footer-links">
           <a href="#home">Home</a>
           <a href="#projects">Projects</a>
@@ -750,6 +752,7 @@
 
     <div id="app"></div>
 
+    <script src="js/weather.js"></script>
     <script src="js/app.js"></script>
     <script src="js/stars.js"></script>
   </body>

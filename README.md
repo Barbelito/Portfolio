@@ -34,7 +34,8 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 │   └── background-animation.css # Shooting star animations
 ├── js/
 │   ├── app.js                  # Mobile menu toggle functionality
-│   └── stars.js                # Shooting star animation logic
+│   ├── stars.js                # Shooting star animation logic
+│   └── weather.js              # Live weather display using OpenWeatherMap API
 ├── images/                      # Portfolio images
 └── assets/                      # CV and downloadable files
 ```
@@ -62,6 +63,13 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 - Pauses when tab is not in focus
 - Responsive positioning based on screen size
 
+### Live Weather Display
+
+- Real-time weather information powered by OpenWeatherMap API
+- Shows current temperature and weather conditions for Stockholm
+- Displays weather icon matching current conditions
+- Updates on page load with automatic error handling
+
 ### Contact Form
 
 - Form validation (name, email, message)
@@ -80,7 +88,7 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 1. **Home** - Hero section with introduction and skills
 2. **Projects** - Featured work including "The Paladin's Return" game
 3. **Contact** - Get in touch form and contact information
-4. **Footer** - Quick links and social media
+4. **Footer** - Quick links, social media and weather information
 
 ## 🔗 Links
 

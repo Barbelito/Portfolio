@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio website showcasing my work as a .NET developer and game designer. This project was built for an assignment, and is not a final build for my portfolio. Built with HTML, CSS, and vanilla JavaScript, featuring a cool cyberpunk style (i love cyberpunk). Neon lights and interactive glow effects using the two objectively best colours: purple and green (not biased at all).
 
-## 🎨 Features
+## Features
 
 - **Hero Section** - Introduction with a flexbox highlighting my skills, featuring a picture of your's truly.
 - **Project Showcase** - Grid layout displaying featured projects with demo and GitHub links
@@ -12,14 +12,14 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 - **Interactive Animations** - Shooting star background effects and satisfying glows and hover effects
 - **Accessibility** - Semantic HTML with ARIA labels and keyboard navigation support
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** - Semantic markup with proper accessibility features
-- **CSS3** - Grid, Flexbox, animations, backdrop filters, and clamp to adjust fontsize and other elemnents
+- **CSS3** - Grid, Flexbox, animations, backdrop filters, and clamp to adjust fontsize and other elements
 - **JavaScript** - Vanilla JS for menu toggle and interactive elements like hamburger menu
 - **Fonts** - Google Fonts (Lexend Deca)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── index.html                    # Main HTML file
@@ -49,7 +49,7 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 5. **Mobile View** - On mobile devices, tap the hamburger menu (☰) to toggle the navigation menu
 6. **Watch the Stars** - Enjoy the animated shooting stars in the background!
 
-## 🚀 Features in Detail
+## Features in Detail
 
 ### Mobile Navigation
 
@@ -75,7 +75,6 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 - Form validation (name, email, message)
 - Powered by [FormSubmit.co](https://formsubmit.co)
 - CAPTCHA protection disabled for better UX
--
 
 ### Responsive Grid Layouts
 
@@ -83,25 +82,25 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 - Smooth hover effects and transitions
 - Adapts from multi-column to single column on mobile
 
-## 🎯 Key Sections
+## Key Sections
 
 1. **Home** - Hero section with introduction and skills
 2. **Projects** - Featured work including "The Paladin's Return" game
 3. **Contact** - Get in touch form and contact information
 4. **Footer** - Quick links, social media and weather information
 
-## 🔗 Links
+## Links
 
 - **Portfolio**: View live at your deployment URL
 - **GitHub**: [github.com/Barbelito](https://github.com/Barbelito)
 - **LinkedIn**: [linkedin.com/in/sharbel-kas-elias](https://www.linkedin.com/in/sharbel-kas-elias-266239205)
 
-## 📞 Contact
+## Contact
 
 - **Email**: sharbelkaselias@gmail.com
 - **Phone**: +46 73 873 90 96
 
-## 📝 License
+## License
 
 © 2025 Sharbel Kas Elias. All rights reserved.
 

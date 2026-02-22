@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,21 +11,23 @@ body {
   padding-top: 3rem;
   font-family: "Lexend Deca", sans-serif;
   line-height: 1.6;
-  background-color: rgb(0, 0, 0);
-  background-image: repeating-linear-gradient(
+  background-color: #000;
+  background-image:
+    repeating-linear-gradient(
       to bottom,
-      #482d6358,
+      #482d6358 0px,
       #482d6358 2px,
-      transparent 10px,
+      transparent 2px,
       transparent 20px
     ),
     repeating-linear-gradient(
       to right,
-      #482d6358,
+      #482d6358 0px,
       #482d6358 2px,
       transparent 2px,
       transparent 20px
     );
+  background-size: 20px 20px;
   color: #e6e7eb;
 }
 @media (max-width: 768px) {

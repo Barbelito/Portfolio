@@ -13,7 +13,12 @@
   font-weight: 700;
   color: rgb(172, 0, 251);
   font-size: clamp(2rem, 2vw + 1rem, 3rem);
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.note {
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .testimonials-container {
@@ -28,7 +33,9 @@
   border-radius: 0.25rem;
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
 }

@@ -14,7 +14,9 @@ textarea {
   background-color: #0000007c;
   border: 3px solid transparent;
   border-image: linear-gradient(#932df9, #00ff8c) 1;
-  box-shadow: inset 0 0 10px #39b97f, inset 0 0 18px #7122c1;
+  box-shadow:
+    inset 0 0 10px #39b97f,
+    inset 0 0 18px #7122c1;
   padding: 2rem;
 }
 
@@ -54,7 +56,9 @@ textarea {
   color: #fff;
   font-size: 1rem;
   outline: none;
-  transition: border 0.2s ease, background 0.2s ease;
+  transition:
+    border 0.2s ease,
+    background 0.2s ease;
 }
 
 .contact-form input:focus,
@@ -72,7 +76,9 @@ textarea {
   background: #00c44e;
   color: #ffffff;
   cursor: pointer;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .contact-submit:hover {
@@ -100,7 +106,7 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
   white-space: nowrap;
-  font-size: clamp(0.9rem, 1.5vw, 5rem);
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
 }
 
 .contact-bubble {

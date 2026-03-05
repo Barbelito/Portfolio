@@ -41,7 +41,7 @@ A modern, interactive portfolio website showcasing my work as a .NET developer a
 ```
 
 ### How to Use
-
+(This is now uploaded and can be viewed on sharbelkaselias.com !)
 1. **Open the Portfolio** - Simply open `index.html` in your web browser
 2. **Navigate** - Use the navigation bar at the top to jump between sections (Home, Projects, Contact)
 3. **Explore Projects** - Click on project cards to view demos or visit the GitHub repositories

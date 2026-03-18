@@ -181,3 +181,9 @@
 .diva-icon {
   padding: 2px;
 }
+
+@media (max-width: 500px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
